@@ -1,3 +1,25 @@
+h1{
+	color: black;
+	background-color: rgb(135, 205, 222);
+	display: inline;
+	border: red solid 4px;
+	border-radius: 10em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#desc{
+	display: inline;
+	color: black;
+	background-color: rgb(255, 127, 42);
+	border: black solid 4px;
+}
+
+#avatar{
+	width: 128px;
+	height: 128px;
+	float: left;
+}
 body{
 	text-align: center;
 	background-image: url("city.png");
@@ -19,9 +41,15 @@ section{
 	flex-shrink: 1;
 	flex-basis: 250px;
 	background-color: yellow;
-	opacity: 0.8;
 	border: solid 10px white;
 	border-radius: 1em;
+}
+
+.icon{
+	width: 196px;
+	height: 196px;
+	object-fit: scale-down;
+	object-position: center;
 }
 
 #blog{
