@@ -1,18 +1,20 @@
+@import 'https://fonts.googleapis.com/css?family=Cairo';
+
 h1{
 	color: black;
 	background-color: rgb(135, 205, 222);
-	display: inline;
-	border: red solid 4px;
+	display: inline-block;
+	border: rgb(44, 137, 160) solid 4px;
 	border-radius: 10em;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 #desc{
-	display: inline;
+	display: inline-block;
 	color: black;
 	background-color: rgb(255, 127, 42);
-	border: black solid 4px;
+	border: rgb(170, 68, 0) solid 4px;
 }
 
 #avatar{
@@ -21,6 +23,7 @@ h1{
 	float: left;
 }
 body{
+	font-family: "Cairo", sans-serif;
 	text-align: center;
 	background-image: url("city.png");
 	background-attachment: fixed;
@@ -40,8 +43,8 @@ section{
 	flex-grow: 0;
 	flex-shrink: 1;
 	flex-basis: 250px;
-	background-color: yellow;
-	border: solid 10px white;
+	background-color: rgb(153, 255, 85);
+	border: rgb(51, 128, 0) 10px white;
 	border-radius: 1em;
 }
 
