@@ -57,6 +57,5 @@ section{
 
 #blog{
 	order: 0;
-	flex-grow: 3;
-	background-color: blue;
+	background-color: rgb(222, 170, 135);
 }
