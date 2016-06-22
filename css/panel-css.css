@@ -1,0 +1,84 @@
+@font-face{
+	font-family: "Roboto Slab";
+	font-style: normal;
+	font-weight: 100;
+	src: local("Roboto Slab Thin"), url("RobotoSlab.woff") format("woff");
+}
+body{
+	background-image: url("../city.svg");
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+}
+.panel{
+	background-color: white;
+	color: black;
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-family: "Roboto Slab";
+	overflow: hidden;
+}
+.icon{
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+}
+#avatar{
+	border-radius: 50%;
+	height: 96px;
+	width: 96px;
+}
+#leftList{
+	text-align: left;
+	list-style-type: none;
+	float: left;
+	max-width: 45%;
+}
+#leftList .item{
+	border-width: 5px;
+	border-color: grey;
+	border-style: groove;
+	right: 50%;
+}
+#rightList{
+	text-align: right;
+	list-style-type: none;
+	float: right;
+	max-width: 45%;
+}
+#rightList .item{
+	border-width: 5px;
+	border-color: grey;
+	border-style: groove;
+	left: 50%;
+}
+.item{
+	display: box;
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	/*background-color: green;*/
+}
+.item img{
+	float: left;
+}
+a:link{
+	color: green;
+}
+.item:hover{
+	background-color: royalblue;
+	opacity: 0.5;
+	transition: background-color 1000ms linear;
+	transition: opacity 1500ms linear;
+}
+h4{
+	font-weight: bold;
+	font-style: italic;
+}
+
+@media (max-width: 600px){
+	.panel{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Adrián Arroyo Calle - Personal website</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="My personal website. Welcome, my name is Adrián Arroyo"/>
+		<link rel="stylesheet" href="css/fonts.css"/>
+		<style>
+		#note-container{
+			position: relative;
+		}
+		#note-content{
+			position: absolute;
+			float: left;
+			/*bottom: 0px;*/
+			width: 50%;
+			left: 25%;
+			background-color: rgba(45,45,150,0.5);
+			border: groove 10px rgba(45,45,150,0.5);
+			border-radius: 5px 16px;
+			font-family: 'Monofett';
+			font-size: 28px;
+			text-align: center;
+		}
+		#note-content small{
+			font-family: "Julius Sans One";
+			font-size: 20px;
+		}
+		#message-box{
+			position: absolute;
+			float: left;
+			/*bottom: 0px;*/
+			top: 100px;
+			width: 50%;
+			height: 50%;
+			left: 25%;
+			background-color: rgba(25,25,225,0.5);
+			visibility: hidden;
+			border: groove 5px blue;
+			text-align: center;
+		}
+		iframe{
+			position: relative;
+			border: none;
+			overflow: hidden;
+			display: block;
+			/*width: 100%;*/
+		}
+		img{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0px;
+			top: 0px;
+		}
+		canvas{
+			position: absolute;
+			float: left;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+		}
+		button{
+			background-color: yellow;
+			color: blue;
+		}
+
+		</style>
+	</head>
+	<body>
+		<img src="city.svg" alt="Adrianistan"/>
+		<canvas id="canvas">
+		</canvas>
+		<div id="note-container">
+			<div id="note-content">
+				Welcome to Adrian Arroyo's website
+				<br>
+				<small>
+					<a title="George S. Patton" href="http://en.wikipedia.org/wiki/George_S._Patton">If everybody is thinking alike, then somebody isn't thinking</a>
+				</small>
+				<small>
+					<em>Click on the screen</em>
+				</small>
+			</div>
+			<div id="message-box">
+				<iframe id="iframe-content" src="about:blank"></iframe>
+				<button id="prev"></button>
+				<button id="next"></button>
+			</div>
+		</div>
+		<script src="js/zoom.js"></script>
+		<script src="js/adrianistan.js"></script>
+		<script>
+		zoom.out();
+		</script>
+	</body>
+</html>

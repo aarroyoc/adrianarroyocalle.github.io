@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../css/fonts.css"/>
+		<style>
+		body{
+			font-family: 'Ubuntu Condensed';
+		}
+		h1{
+			font-family: 'Anonymous Pro';
+		}
+		ul{
+			list-style: none;
+		}
+		li{
+			float: left;
+			background: black;
+			text-align: center;
+			border: 2px solid gray;
+			color: white;
+		}
+		.li64{
+			height: 64px;
+			width: 64px;
+		}
+		li:hover{
+			background: gray;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Projects</h1>
+		<article>
+			<ul>
+				<li class="li64"><img id="azpazeta" src="../img/azpazeta.svg" alt="Azpazeta"/></li>
+				<li class="li64" id="eljuegodelasgalaxias">El Juego de las Galaxias</li>
+				<li class="li64"><img id="norzarea" src="../img/norzarea.png" alt="Norzarea"></li>
+				<li class="li64">DivWork</li>
+				<li class="li64"><img id="divcity" src="../img/divcity.png" alt="DivCity"/></li>
+				<li class="li64"><img id="bloco" src="../img/bloco.png" alt="Bloco"/></li>
+				<li class="li64"><img id="firefox-addons" src="../img/send-to-mail.png" alt="firefox-addons"/></li>
+				<li class="li64">Tú eres el protagonista</li>
+				<li class="li64">Divel Updater</li>
+				<li class="li64">Templvs</li>
+				<li class="li64">NextDivel</li>
+				<li class="li64"><img id="elpasillodelinfierno" src="../img/elpasillodelinfierno.png" alt="El Pasillo del Infierno"/></li>
+				<li class="li64">Monopoly</li>
+				<li class="li64">DivHotel</li>
+				<li class="li64">DivElectric</li>
+				<li class="li64">DivWiki</li>
+				<li class="li64">Multiverse City</li>
+				<li class="li64">MVM</li>
+				<li class="li64">Divel Apps</li>
+				<li class="li64" id="cmake">CMake for Haiku</li>
+				<li class="li64"><img id="lumtumo" src="../img/lumtumo.png" alt="Lumtumo"></li>
+				<li class="li64" id="maquinaria">La Maquinaria de Videojuegos</li>
+				<li class="li64" id="gajse">GAJSE</li>
+				<li class="li64">Hotel Zántico</li>
+				<li class="li64" id="complotcontraelcomplot">Complot contra el complot</li>
+				<li class="li64" id="arduino">Arduino</li>
+				<li class="li64" id="adrianistan">Adrianistán</li>
+				<li class="li64" id="lobby42">El Lobby 42</li>
+				<li class="li64" id="canhojen">Canhojen MMORPG</li>
+			</ul>
+		</article>
+		<script>
+		function get(str){
+			return document.getElementById(str);
+		}
+		function redirect(id,url){
+			get(id).addEventListener("click",function(){
+				window.location.href=url;
+			});
+		}
+		redirect("azpazeta","/azpazeta-promotional-website");
+		redirect("divcity","http://bitbucket.org/AdrianArroyoCalle/divcity");
+		redirect("lumtumo","https://89512bf73050532b7f7b7d65d88f089ba7450da8.googledrive.com/host/0BzCRLdxPiAs0TXEzUlpyOUtXMlE/");
+		redirect("gajse","/gajse");
+		redirect("adrianistan","http://divelonline.no-ip.org");
+		redirect("loby42","http://sites.google.com/site/ellobby42");
+		redirect("canhojen","http://canhojen-divel.rhcloud.com");
+		redirect("complotcontraelcomplot","http://sites.google.com/site/complotcontraelcomplot");
+		redirect("cmake","http://github.com/AdrianArroyoCalle/cmake-haiku");
+		redirect("firefox-addons","/firefox-addons");
+		redirect("norzarea","/norzarea/player.html");
+		redirect("elpasillodelinfierno","/elpasillodelinfierno");
+		</script>
+	</body>
+</html>

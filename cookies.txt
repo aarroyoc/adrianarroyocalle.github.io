@@ -1,0 +1,10 @@
+Cookies description
+===================
+
+This site (http://adrianarroyocalle.github.io) uses two types of cookies:
+
+ * Analytics cookies: Used by Google Analytics for collect IP-based data
+ * Ads cookies: Used by Google AdSense for display the ads in the site
+ * Social cookies: Used by Disqus for provide comments
+
+Refer to the original authors of the cookies to know how to remove the cookies

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Buscar en Internet</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.brown-orange.min.css" />
+		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
+	<body style="text-align: center;">
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		  <header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+			  <span class="mdl-layout-title">Buscar en Internet</span>
+			  <div class="mdl-layout-spacer"></div>
+			</div>
+		  </header>
+		  <main class="mdl-layout__content">
+			<div class="page-content">
+					<form action="http://www.google.es" id="cse-search-box">
+				  <div class="mdl-textfield mdl-js-textfield">
+					<input type="hidden" name="cx" value="partner-pub-6944504853839360:7204024735" />
+					<input type="hidden" name="ie" value="UTF-8" />
+					<input class="mdl-textfield__input" type="text" name="q" size="55" id="q" />
+					<label class="mdl-textfield__label" for="q">Buscar en Internet...</label>
+					<!-- <input type="submit" name="sa" value="Buscar" /> --> 
+				  </div>
+				  <input type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" value="Buscar" name="sa"/>
+				</form>
+			
+			</div>
+		  </main>
+		</div>
+	</body>
+</html>

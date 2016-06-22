@@ -1,0 +1,31 @@
+body{
+	text-align: center;
+	background-image: url("city.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+.item{
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 250px;
+	background-color: yellow;
+	opacity: 0.8;
+	border: solid 10px white;
+	border-radius: 1em;
+}
+
+#blog{
+	order: 0;
+	flex-grow: 3;
+	background-color: blue;
+}
