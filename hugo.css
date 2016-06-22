@@ -44,7 +44,7 @@ section{
 	flex-shrink: 1;
 	flex-basis: 250px;
 	background-color: rgb(153, 255, 85);
-	border: rgb(51, 128, 0) 10px white;
+	border: rgb(51, 128, 0) 4px solid;
 	border-radius: 1em;
 }
 
