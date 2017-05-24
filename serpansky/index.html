@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chaos Game</title>
+        <meta charset="utf-8"/>
+        <script src="main.js"></script>
+        <style>
+            div{
+                width: 50%;
+                display: inline-block;
+            }
+            #right{
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="left">
+            <canvas id="canvas" width="600" height="600"></canvas>
+        </div>
+        <div id="right">
+            <h1>Serpinsky</h1>
+            <button id="start">START</button>
+            <button id="stop">STOP</button>
+            <button id="reset">RESET</button>
+            <hr>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>X</th>
+                    <th>Y</th>
+                </tr>
+                <tr><td>Start point</td><td><input id="s-x" value="100" min="0" max="600" type="number"></td><td><input id="s-y" value="100" min="0" max="600" type="number"></td></tr>
+                <tr><td>A</td><td><input id="a-x" value="300" min="0" max="600" type="number"></td><td><input id="a-y" value="50" min="0" max="600" type="number"></td></tr>
+                <tr><td>B</td><td><input id="b-x" value="50" min="0" max="600" type="number"></td><td><input id="b-y" value="500" min="0" max="600" type="number"></td></tr>
+                <tr><td>C</td><td><input id="c-x" value="540" min="0" max="600" type="number"></td><td><input id="c-y" value="530" min="0" max="600" type="number"></td></tr>
+            </table>
+                Size of points: <input type="range" value="5" step="1" min="1" max="10" id="size"><br>
+                Speed: <input type="range" id="speed" value="10" step="10" min="10" max="1000">
+        </div>
+    </body>
+</html>
