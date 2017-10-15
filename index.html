@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Adrián Arroyo Calle</title>
         <link href="main.css" rel="stylesheet">
     </head>
@@ -11,19 +12,34 @@
             <div class="text-container">
                 <div class="text">
                     <div class="top">Hi, my name is <strong>Adrián Arroyo Calle</strong>. I'm a software engineer from Valladolid, Spain</div>
-                    <div class="middle">
-                        <h4>Projects</h4>
-                        <ul>
-                            <li><a href="https://play.google.com/store/apps/details?id=eu.adrianistan.anrokku">Anrokku</a></li>
-                            <li><a href="http://adrianistan.eu/kovel/">Kovel</a></li>
-                        </ul>
+                    <div class="middle projects">
+                        <a href="http://adrianistan.eu/kovel"><img src="img/Kovel.png"></a>
+                        <a href="https://play.google.com/store/apps/details?id=eu.adrianistan.anrokku"><img src="img/Anrokku.png"></a>
+                        <a href="http://github.com/aarroyoc/SuperFreeCell"><img src="img/SuperFreeCell-2.png"></a>
+                        <a href="http://gamedevhispano.com"><img src="http://gamedevhispano.com/uploads/system/site-logo.png"></a>
+                        <a href="https://blog.adrianistan.eu"><img src="favicon.png"></a>
+                        <a href="http://www.phaser-hispano.gq"><img src="img/phaser.png"></a>
+                        <a href="http://yayeyo.ga"><img src="img/yayeyo.png"></a>
                     </div>
-                    <div class="middle">CV</div>
-                    <div class="middle">Hobbies</div>
-                    <div class="middle">FAQs</div>
-                    <div class="middle">AdSense</div>
-                    <div class="middle">Photos</div>
-                    <div class="middle">Contact me</div>
+                    <div class="middle">
+                        <!-- TEXT -->
+                        <p>Welcome to my personal site on the World Wide Web. I like programming and creating stuff. I also like orienteering, philosophy, science, playing games, watching films and travel.</p>
+                        <p>I'm currently studying at Valladolid University and I volunteer in BEST Valladolid</p>
+                        <blockquote>If everybody thinks the same, then somebody isn't thinking</blockquote>
+                        <p>May I help you? I like to work in cybersecurity, blockchain, game development and websites. I'd like to work with Rust, C++, Elm, JavaScript, Python and C#.</p>
+                    </div>
+                    <div class="middle">
+                        <a href="/cv/resume.pdf">Download my resume / CV</a>
+                    </div>
+                    <div class="middle">
+                        <!-- Photos -->
+                    </div>
+                    <div class="middle">
+                        If you want to contact with me, send me an email: <pre>adrian DOT arroyocalle (@) gmail DOT com</pre>
+                    </div>
+                    <div class="middle">
+                        <a download href="pgp.asc">PGP Public key</a>
+                    </div>
                     <div class="end"><a href="https://blog.adrianistan.eu">Visit my blog in Spanish</a></div>
                 </div>
             </div>
@@ -31,7 +47,26 @@
                 <canvas id="canvas"></canvas>
             </div>
         </div>
+        <div class="adsense">
+        <ins class="adsbygoogle"
+        style="display:inline-block;width:728px;height:90px"
+        data-ad-client="ca-pub-6944504853839360"
+        data-ad-slot="4423145936"></ins>
+        </div>
         <script async src="tree.js"></script>
-        <!-- Google Analytics -->
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-20035972-22', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
     </body>
 </html>
